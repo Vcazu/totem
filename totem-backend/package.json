@@ -1,0 +1,17 @@
+{
+  "name": "totem-backend",
+  "version": "1.0.0",
+  "description": "API do totem de autoatendimento (cardápio + pedidos + tempo real para KDS)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nanoid": "^5.0.7",
+    "socket.io": "^4.7.5"
+  }
+}

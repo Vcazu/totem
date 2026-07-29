@@ -1,0 +1,193 @@
+{
+  "categories": [
+    {
+      "id": "burgers",
+      "label": "Burgers"
+    },
+    {
+      "id": "sides",
+      "label": "Acompanhamentos"
+    },
+    {
+      "id": "drinks",
+      "label": "Bebidas"
+    },
+    {
+      "id": "desserts",
+      "label": "Sobremesas"
+    }
+  ],
+  "menuItems": [
+    {
+      "id": 1,
+      "category": "burgers",
+      "name": "Smash Clássico",
+      "description": "2 carnes smash, queijo prato, picles, molho da casa",
+      "price": 24.9,
+      "active": true
+    },
+    {
+      "id": 2,
+      "category": "burgers",
+      "name": "Bacon Duplo",
+      "description": "2 carnes, bacon crocante, cheddar, cebola caramelizada",
+      "price": 29.9,
+      "active": true
+    },
+    {
+      "id": 3,
+      "category": "burgers",
+      "name": "Frango Crispy",
+      "description": "Frango empanado, maionese picante, alface, tomate",
+      "price": 26.9,
+      "active": true
+    },
+    {
+      "id": 4,
+      "category": "burgers",
+      "name": "Veggie",
+      "description": "Blend de grão-de-bico e cogumelos, queijo, rúcula",
+      "price": 27.9,
+      "active": true
+    },
+    {
+      "id": 5,
+      "category": "sides",
+      "name": "Batata Frita",
+      "description": "Porção generosa, sal na medida certa",
+      "price": 12.9,
+      "active": true
+    },
+    {
+      "id": 6,
+      "category": "sides",
+      "name": "Onion Rings",
+      "description": "Anéis de cebola empanados e crocantes",
+      "price": 14.9,
+      "active": true
+    },
+    {
+      "id": 7,
+      "category": "sides",
+      "name": "Nuggets (10un)",
+      "description": "Frango empanado, molho barbecue incluso",
+      "price": 16.9,
+      "active": true
+    },
+    {
+      "id": 8,
+      "category": "drinks",
+      "name": "Refrigerante Lata",
+      "description": "Coca, Guaraná ou Zero — 350ml",
+      "price": 6.9,
+      "active": true
+    },
+    {
+      "id": 9,
+      "category": "drinks",
+      "name": "Suco Natural",
+      "description": "Laranja, limão ou maracujá — 400ml",
+      "price": 8.9,
+      "active": true
+    },
+    {
+      "id": 10,
+      "category": "drinks",
+      "name": "Milkshake",
+      "description": "Chocolate, morango ou baunilha — 400ml",
+      "price": 15.9,
+      "active": true
+    },
+    {
+      "id": 11,
+      "category": "desserts",
+      "name": "Brownie c/ Sorvete",
+      "description": "Brownie quente com bola de sorvete de creme",
+      "price": 13.9,
+      "active": true
+    },
+    {
+      "id": 12,
+      "category": "desserts",
+      "name": "Petit Gateau",
+      "description": "Recheio de chocolate meio amargo derretido",
+      "price": 15.9,
+      "active": true
+    }
+  ],
+  "extras": [
+    {
+      "id": "cheese",
+      "label": "Queijo extra",
+      "price": 4
+    },
+    {
+      "id": "bacon",
+      "label": "Bacon extra",
+      "price": 6
+    },
+    {
+      "id": "egg",
+      "label": "Ovo",
+      "price": 3.5
+    },
+    {
+      "id": "nomayo",
+      "label": "Sem maionese",
+      "price": 0
+    },
+    {
+      "id": "nopickle",
+      "label": "Sem picles",
+      "price": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1784752890476_100",
+      "orderNumber": 100,
+      "storeId": "default",
+      "type": "aqui",
+      "paymentMethod": "pix",
+      "status": "concluido",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Smash Clássico",
+          "qty": 1,
+          "unitPrice": 28.9,
+          "extras": [
+            "cheese"
+          ]
+        }
+      ],
+      "total": 28.9,
+      "createdAt": "2026-07-22T20:41:30.476Z",
+      "updatedAt": "2026-07-22T20:43:21.359Z"
+    },
+    {
+      "id": "ord_1784752971184_101",
+      "orderNumber": 101,
+      "storeId": "default",
+      "type": "aqui",
+      "paymentMethod": "pix",
+      "status": "concluido",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Smash Clássico",
+          "qty": 1,
+          "unitPrice": 34.9,
+          "extras": [
+            "bacon",
+            "cheese"
+          ]
+        }
+      ],
+      "total": 34.9,
+      "createdAt": "2026-07-22T20:42:51.184Z",
+      "updatedAt": "2026-07-22T20:43:23.776Z"
+    }
+  ],
+  "nextOrderNumber": 102
+}

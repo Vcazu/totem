@@ -1,0 +1,27 @@
+services:
+  backend:
+    build: ./totem-backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - backend-data:/app/data   # persiste o db.json entre reinícios do container
+    restart: unless-stopped
+
+  frontend:
+    build: ./totem-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  kds:
+    build: ./totem-kds
+    ports:
+      - "5174:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend-data:
