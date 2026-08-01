@@ -1,0 +1,71 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="960" height="620" fill="#1C1917"/>
+
+  <text x="30" y="46" fill="#FBF3E7" font-size="26" font-weight="bold" letter-spacing="0.5">PAINEL DA COZINHA</text>
+  <circle cx="880" cy="38" r="4" fill="#5B7B4F"/>
+  <text x="892" y="42" fill="#5B7B4F" font-size="12">Conectado</text>
+
+  <!-- Coluna NOVO -->
+  <rect x="30" y="72" width="290" height="34" rx="10" fill="#9A2B2522" stroke="#9A2B2555"/>
+  <text x="48" y="95" fill="#9A2B25" font-size="15" font-weight="bold">NOVO</text>
+  <text x="298" y="95" fill="#9A2B25" font-size="12" text-anchor="end" font-family="Courier New, monospace">2</text>
+
+  <g transform="translate(30,120)">
+    <rect width="290" height="150" rx="12" fill="#252019" stroke="#3a352d"/>
+    <text x="16" y="34" fill="#F4B93F" font-size="22" font-weight="bold" font-family="Courier New, monospace">#104</text>
+    <rect x="222" y="14" width="58" height="20" rx="10" fill="#5B7B4F33"/>
+    <text x="251" y="28" fill="#5B7B4F" font-size="10" font-weight="bold" text-anchor="middle">COMER AQUI</text>
+    <text x="16" y="54" fill="#7a7268" font-size="11">agora</text>
+    <text x="16" y="80" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">2x</tspan> Smash Clássico</text>
+    <text x="26" y="97" fill="#a89f8f" font-size="10">+ Queijo extra</text>
+    <text x="16" y="118" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">2x</tspan> Refrigerante Lata</text>
+    <rect x="16" y="128" width="258" height="10" fill="none"/>
+    <rect x="16" y="132" width="258" height="30" rx="8" fill="#9A2B25"/>
+    <text x="145" y="151" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Iniciar preparo</text>
+  </g>
+
+  <g transform="translate(30,282)">
+    <rect width="290" height="130" rx="12" fill="#252019" stroke="#3a352d"/>
+    <text x="16" y="34" fill="#F4B93F" font-size="22" font-weight="bold" font-family="Courier New, monospace">#105</text>
+    <rect x="222" y="14" width="58" height="20" rx="10" fill="#E8542A33"/>
+    <text x="251" y="28" fill="#E8542A" font-size="10" font-weight="bold" text-anchor="middle">P/ LEVAR</text>
+    <text x="16" y="54" fill="#7a7268" font-size="11">2 min</text>
+    <text x="16" y="80" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">1x</tspan> Frango Crispy</text>
+    <rect x="16" y="98" width="258" height="30" rx="8" fill="#9A2B25"/>
+    <text x="145" y="117" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Iniciar preparo</text>
+  </g>
+
+  <!-- Coluna PREPARANDO -->
+  <rect x="335" y="72" width="290" height="34" rx="10" fill="#E8542A22" stroke="#E8542A55"/>
+  <text x="353" y="95" fill="#E8542A" font-size="15" font-weight="bold">PREPARANDO</text>
+  <text x="603" y="95" fill="#E8542A" font-size="12" text-anchor="end" font-family="Courier New, monospace">1</text>
+
+  <g transform="translate(335,120)">
+    <rect width="290" height="150" rx="12" fill="#252019" stroke="#3a352d"/>
+    <text x="16" y="34" fill="#F4B93F" font-size="22" font-weight="bold" font-family="Courier New, monospace">#103</text>
+    <rect x="222" y="14" width="58" height="20" rx="10" fill="#5B7B4F33"/>
+    <text x="251" y="28" fill="#5B7B4F" font-size="10" font-weight="bold" text-anchor="middle">COMER AQUI</text>
+    <text x="16" y="54" fill="#7a7268" font-size="11">6 min</text>
+    <text x="16" y="80" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">1x</tspan> Bacon Duplo</text>
+    <text x="16" y="102" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">1x</tspan> Batata Frita</text>
+    <rect x="16" y="132" width="258" height="30" rx="8" fill="#E8542A"/>
+    <text x="145" y="151" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Marcar como pronto</text>
+  </g>
+
+  <!-- Coluna PRONTO -->
+  <rect x="640" y="72" width="290" height="34" rx="10" fill="#5B7B4F22" stroke="#5B7B4F55"/>
+  <text x="658" y="95" fill="#5B7B4F" font-size="15" font-weight="bold">PRONTO</text>
+  <text x="908" y="95" fill="#5B7B4F" font-size="12" text-anchor="end" font-family="Courier New, monospace">1</text>
+
+  <g transform="translate(640,120)">
+    <rect width="290" height="150" rx="12" fill="#252019" stroke="#3a352d"/>
+    <text x="16" y="34" fill="#F4B93F" font-size="22" font-weight="bold" font-family="Courier New, monospace">#102</text>
+    <rect x="222" y="14" width="58" height="20" rx="10" fill="#E8542A33"/>
+    <text x="251" y="28" fill="#E8542A" font-size="10" font-weight="bold" text-anchor="middle">P/ LEVAR</text>
+    <text x="16" y="54" fill="#7a7268" font-size="11">9 min</text>
+    <text x="16" y="80" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">1x</tspan> Veggie</text>
+    <text x="16" y="102" fill="#FBF3E7" font-size="13"><tspan font-weight="bold">1x</tspan> Suco Natural</text>
+    <rect x="16" y="132" width="258" height="30" rx="8" fill="#5B7B4F"/>
+    <text x="145" y="151" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Entregar / concluir</text>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 440 700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="440" height="700" fill="#1C1917"/>
+  <rect x="10" y="10" width="420" height="680" rx="28" fill="#1C1917" stroke="#33302c" stroke-width="2"/>
+  <clipPath id="screen2"><rect x="20" y="20" width="400" height="660" rx="20"/></clipPath>
+  <g clip-path="url(#screen2)">
+    <rect x="20" y="20" width="400" height="660" fill="#FBF3E7"/>
+    <rect x="20" y="20" width="400" height="200" fill="#00000055"/>
+
+    <rect x="20" y="220" width="400" height="460" rx="22" fill="#FBF3E7"/>
+
+    <rect x="48" y="248" width="70" height="70" rx="14" fill="#E8542A"/>
+    <text x="83" y="292" fill="#ffffff" font-size="26" text-anchor="middle" opacity="0.85">B</text>
+    <circle cx="392" cy="268" r="15" fill="#eee0cc"/>
+    <text x="392" y="273" fill="#1C1917" font-size="14" text-anchor="middle">x</text>
+
+    <text x="48" y="346" fill="#1C1917" font-size="24" font-weight="bold">Smash Clássico</text>
+    <text x="48" y="366" fill="#7a7268" font-size="12">2 carnes smash, queijo prato, picles, molho da casa</text>
+
+    <text x="48" y="404" fill="#9A2B25" font-size="11" font-weight="bold" letter-spacing="1">ADICIONAIS</text>
+
+    <line x1="48" y1="418" x2="392" y2="418" stroke="#eee0cc"/>
+    <rect x="48" y="424" width="16" height="16" rx="4" fill="#E8542A"/>
+    <text x="53" y="437" fill="#ffffff" font-size="11" text-anchor="middle">✓</text>
+    <text x="78" y="437" fill="#1C1917" font-size="13">Queijo extra</text>
+    <text x="392" y="437" fill="#7a7268" font-size="12" text-anchor="end" font-family="Courier New, monospace">+R$ 4,00</text>
+
+    <line x1="48" y1="452" x2="392" y2="452" stroke="#eee0cc"/>
+    <rect x="48" y="458" width="16" height="16" rx="4" fill="#E8542A"/>
+    <text x="53" y="471" fill="#ffffff" font-size="11" text-anchor="middle">✓</text>
+    <text x="78" y="471" fill="#1C1917" font-size="13">Bacon extra</text>
+    <text x="392" y="471" fill="#7a7268" font-size="12" text-anchor="end" font-family="Courier New, monospace">+R$ 6,00</text>
+
+    <line x1="48" y1="486" x2="392" y2="486" stroke="#eee0cc"/>
+    <rect x="48" y="492" width="16" height="16" rx="4" fill="none" stroke="#ddd0b8" stroke-width="1.5"/>
+    <text x="78" y="505" fill="#1C1917" font-size="13">Ovo</text>
+    <text x="392" y="505" fill="#7a7268" font-size="12" text-anchor="end" font-family="Courier New, monospace">+R$ 3,50</text>
+
+    <line x1="48" y1="520" x2="392" y2="520" stroke="#eee0cc"/>
+    <rect x="48" y="526" width="16" height="16" rx="4" fill="none" stroke="#ddd0b8" stroke-width="1.5"/>
+    <text x="78" y="539" fill="#1C1917" font-size="13">Sem maionese</text>
+
+    <circle cx="150" cy="576" r="17" fill="none" stroke="#ddd0b8"/>
+    <text x="150" y="581" fill="#1C1917" font-size="16" text-anchor="middle">-</text>
+    <text x="200" y="581" fill="#1C1917" font-size="17" font-weight="bold" text-anchor="middle" font-family="Courier New, monospace">1</text>
+    <circle cx="250" cy="576" r="17" fill="none" stroke="#ddd0b8"/>
+    <text x="250" y="581" fill="#1C1917" font-size="16" text-anchor="middle">+</text>
+
+    <rect x="48" y="612" width="344" height="52" rx="14" fill="#E8542A"/>
+    <text x="66" y="644" fill="#ffffff" font-size="14" font-weight="bold">Adicionar ao pedido</text>
+    <text x="374" y="644" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="end" font-family="Courier New, monospace">R$ 33,80</text>
+  </g>
+</svg>
